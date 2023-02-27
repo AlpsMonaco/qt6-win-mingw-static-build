@@ -1,4 +1,6 @@
+:: set PREFIX_PATH to where you want to install the lib.No backslash or there might be symbol escape error in camke.
 set PREFIX_PATH=D:\qt-static-mingw
+:: qt src path
 set QT_SRC_PATH=C:\Qt\6.4.2\Src
 set BUILD_PATH=%PREFIX_PATH%\build
 set MINGW_PATH=C:\Qt\Tools\mingw1120_64\bin
